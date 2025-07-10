@@ -1,15 +1,4 @@
 ---
-import NotesSidebar from './NotesSidebar.astro';
-import NoteEditor from './NoteEditor.astro';
-import Layout from '../layouts/Layout.astro';
+import NotesApp from './NotesApp.jsx';
 ---
-
-<div id="notes-app"></div>
-<script type="module" src="/src/components/notesAppClient.js" client:load></script>
-
-<style>
-#notes-app {
-  width: 100vw;
-  height: 100vh;
-}
-</style>
+<NotesApp client:load />

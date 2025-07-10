@@ -10,8 +10,11 @@
     "lint": "npx eslint"
   },
   "dependencies": {
+    "@astrojs/react": "^4.2.7",
+    "@supabase/supabase-js": "^2.39.7",
     "astro": "5.4.2",
-    "@supabase/supabase-js": "^2.39.7"
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
     "@eslint/js": "9.24.0",

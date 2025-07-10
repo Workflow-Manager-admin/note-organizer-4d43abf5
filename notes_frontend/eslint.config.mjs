@@ -4,6 +4,11 @@ import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
 export default [
+  // Ignore .astro (generated) files in ALL rule sets
+  {
+    ignores: ['.astro/**', 'dist/**'],
+  },
+
   js.configs.recommended,
 
   // TypeScript support
