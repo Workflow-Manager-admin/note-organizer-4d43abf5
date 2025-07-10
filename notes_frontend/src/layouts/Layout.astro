@@ -9,7 +9,7 @@ import ThemeToggle from '../components/ThemeToggle.astro';
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<title>Note Organizer</title>
 	</head>
 	<body>
 		<ThemeToggle />
@@ -28,6 +28,10 @@ import ThemeToggle from '../components/ThemeToggle.astro';
 		--card-hover-bg: rgba(255, 255, 255, 0.55);
 		--shadow-color: rgba(0, 0, 0, 0.1);
 		--shadow-hover-color: rgba(0, 0, 0, 0.15);
+
+		--primary: #3B82F6;
+		--secondary: #10B981;
+		--accent: #F59E42;
 	}
 
 	body.dark-theme {
@@ -40,6 +44,10 @@ import ThemeToggle from '../components/ThemeToggle.astro';
 		--card-hover-bg: rgba(31, 41, 55, 0.7);
 		--shadow-color: rgba(0, 0, 0, 0.3);
 		--shadow-hover-color: rgba(0, 0, 0, 0.4);
+
+		--primary: #3B82F6;
+		--secondary: #10B981;
+		--accent: #F59E42;
 	}
 
 	html,
